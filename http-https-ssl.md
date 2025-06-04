@@ -91,7 +91,8 @@ The certificate includes:
 ✍️ A digital signature created by the CA
 
 
-How HTTPS Works? 
+
+**How HTTPS Works? 🔒🌐**
 
 Step1: Client Hello 👋 (Start of TLS Handshake)
 The client (browser) starts the secure connection by sending a Client Hello to the server. It includes:
@@ -120,8 +121,6 @@ The server decrypts the premaster secret using its private key. 🔓🗝️
 🔑 Step 6: Session Keys Created
 Both the client and the server use the client random, server random, and the premaster secret to generate identical session keys. 🔐
 These keys will be used to securely encrypt and decrypt the data during the session. 🧑‍💻🔁🖥️. 
-
---(Here in these steps Client and Sever used Assymetric Encryption to share the details and generated a session key. Now Symmetric Encryption is used for data transfers during the session as the session key is only with client and server)--
 
 Step7: Client Finished✅
 The client sends a “finished” message encrypted with the session key. 📩🔐
