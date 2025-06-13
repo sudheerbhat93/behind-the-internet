@@ -2,17 +2,20 @@ In this document, I've shared my understanding of the OSI Model. You'll find ans
 
 
 ❓ What is the OSI Model?
+
 The OSI Model (Open Systems Interconnection) is a conceptual framework that describes how data moves through a network. 
 It defines a set of protocols and rules that allow different computers and systems to communicate effectively over a network.
 
 
 ✅ Why is the OSI Model Important?
+
 🧠 Simplifies the understanding of complex network operations.
 🧱 Divides networking into 7 layers, making it easier for devices and systems to work together.
 🔧 Helps in troubleshooting and managing network issues by breaking them down layer-by-layer.
 
 
 ⚙️ How Does the OSI Model Work?
+
 The OSI Model is made up of 7 layers, each with a specific function:
 7. Application Layer
 6. Presentation Layer
@@ -76,6 +79,7 @@ Includes cables, switches, hubs, radio signals, and fiber optics.
 
 🎥 Reference Videos
 These are the resources I referred to during my learning:
+
 OSI Model Explained: TechTerms
 OSI Model Simplified: Abhishek Veeramalla
 
