@@ -24,8 +24,11 @@ Think of ping like shouting “Hello!” to a friend across the street:
 To ping any website or server 
 ```
 ping <Domain_name or IP_Address>
+
 ```
-You can use either the domain name (like google.com) or the IP address (like 8.8.8.8) directly.
+
+- You can use either the domain name (like google.com) or the IP address (like 8.8.8.8) directly.
+
 ---
 ## Types of responses: 
 
@@ -48,6 +51,7 @@ Approximate round trip times in milli-seconds:
 ```
 
 - This means 4 request packets of 32 bytes were sent and received successfully in the time interval of the average given
+- Time is the total time taken for the packet to transmit from system to system.
 
 ---
 
@@ -151,11 +155,11 @@ Ping statistics for 8.8.8.8:
     - Windows default: 128
     - Linux/macOS: 64
     - Network devices (Cisco, etc.): 255
-    - This means initial value of TTl is set to this particular number in these OS
+    - This means initial value of TTL is set to this particular number in these OS
     - In our case its 128
 - Example explaination: 
     - Earlier we had recieved `Reply from 142.251.222.78: bytes=32 time=58ms TTL=118` 
-    - Observe `TTl=118"
+    - Observe `TTL=118"
     - That means the packet crossed 10 routers (128(initial value)-118(final)=10)
 - You can’t know the exact starting TTL unless you know the OS/device type.
 - But you can make a pretty good guess:
@@ -164,7 +168,7 @@ Ping statistics for 8.8.8.8:
 
 ---
 
-### Response 6: 
+### Response 6: Ping request could not find host
 
 - In commain line, request `ping somewrongdomain.com`
 - The response will be 
