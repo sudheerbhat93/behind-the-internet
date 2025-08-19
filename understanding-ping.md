@@ -191,19 +191,19 @@ Ping request could not find host somewrongdomain.com. Please check the name and 
     - Keeps sending pings until you press `Ctrl+C.`
 
 - Send a specific number of pings:
-    - `ping www.example.com -n 5`
+    - `ping www.google.com -n 5`
     - Sends 5 ping requests.
 
 - Change packet size:
-    - `ping www.example.com -l 1024`
+    - `ping www.google.com -l 1024`
     - Sends pings with 1,024-byte packets.
 
 - Set TTL (Time to Live):
-    - `ping www.example.com -i 10`
+    - `ping www.google.com -i 10`
     - Sets TTL to 10.
 
 -Set timeout:
-    - `ping www.example.com -w 500`
+    - `ping www.google.com -w 500`
     - Waits 500ms for each reply before considering it timed out.
     - This is not the response time. This the time we are telling the packet to wait till it received the response. 
 
